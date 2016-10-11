@@ -1,0 +1,83 @@
+languageCode = "en-us"
+title = "Varnish Plus Demo"
+theme= "hugo-creative-theme"
+baseurl = "http://localhost"
+
+[params]
+	name = "Your name"
+	description = "Your description"
+
+	favicon = "favicon.ico"
+
+	[params.navigation]
+		brand = "Varnish Plus Demo Site"
+
+		[params.navigation.links]
+			about     = "About"
+			services  = "Services"
+			portfolio = "Portfolio"
+			contact   = "Contact"
+
+
+	# Hero section
+	[params.hero]
+		# To change the background of the hero section, replace the 'header.jpg' at './static/img' with your own.
+		slogan     = "Just a test site, really"
+		subtitle   = "This is just a test site. We're using it to showcase different products and methods used with Varnish Plus"
+		buttonText = "Find out more"
+
+
+	# About section
+	[params.about]
+		headline    = "We've got what you need!"
+		description = "HTTP accelerationm, TCP acceleration, replication and other things."
+		buttonText  = "Get started!"
+
+
+	# Service section
+	[params.services]
+		headline = "At your service"
+
+        [[params.services.list]]
+            icon = "fa-diamond"
+            title = "Rock solid"
+            description = "Our software is rigously tested"
+
+        [[params.services.list]]
+			icon = "fa-paper-plane"
+			title = "Ready to Ship"
+			description = "Deployed in minutes"
+
+		[[params.services.list]]
+            icon = "fa-newspaper-o"
+            title = "Up to Date"
+            description = "We update dependencies to keep things fresh."
+
+        [[params.services.list]]
+            icon = "fa-heart"
+            title = "Made with Love"
+            description = "We have this weird love for making things go faster"
+
+
+    # Portfolio modals
+	[params.portfolio.modal]
+        client = "Client"
+        date = "Date"
+        category = "Category"
+        buttonText = "Close"
+
+    # Aside section
+	[params.aside]
+		headline = "Get Varnish Plus"
+
+		[params.aside.button]
+			text = "Talk to us today"
+			link = "//www.varnish-software.com/products/varnish-plus"
+
+	# Contact section
+	[params.contact]
+		headline = "Let's Get In Touch!"
+		description = "Ready to start your next project with us?"
+		phone = "123-456-6789"
+		email = "sales@varnish-software.com"
+
